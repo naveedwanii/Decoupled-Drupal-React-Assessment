@@ -1,0 +1,19 @@
+uuid: f27630e5-e870-45fd-856d-8886e349c880
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_name
+    - node.type.products
+id: node.products.field_product_name
+field_name: field_product_name
+entity_type: node
+bundle: products
+label: 'Product Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

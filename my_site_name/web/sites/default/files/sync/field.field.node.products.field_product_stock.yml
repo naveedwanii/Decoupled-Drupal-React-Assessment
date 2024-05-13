@@ -1,0 +1,23 @@
+uuid: 8bd87eff-53cd-4454-9928-5ca44f7a3985
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_stock
+    - node.type.products
+id: node.products.field_product_stock
+field_name: field_product_stock
+entity_type: node
+bundle: products
+label: 'Product Stock'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
