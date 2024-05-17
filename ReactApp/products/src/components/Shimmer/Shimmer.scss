@@ -1,6 +1,4 @@
-@import "../config/variables.scss";
-@import "../config/breakpoints.scss";
-
+@import "../config/globals.scss";
 .shimmer-container {
   max-width: 1280px;
   margin: 0 auto;
@@ -13,6 +11,6 @@
   .shimmer-card {
     width: 300px;
     height: 400px;
-    background-color: #ccc;
+    background-color: $color-lightGray;
   }
 }

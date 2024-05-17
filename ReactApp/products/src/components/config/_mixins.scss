@@ -1,0 +1,14 @@
+@mixin desktop-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@mixin tablet-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@mixin mobile-view {
+  display: grid;
+  grid-template-columns: 1fr;
+}
