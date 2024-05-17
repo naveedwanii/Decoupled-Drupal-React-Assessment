@@ -8,6 +8,6 @@ Drupal Set up
 React Set up
 
 1. First do the npm install(I have include the node modules folder - skip this line).
-2. Then start the project by using inside the cd ReactApp -> cd /products -> 'npm start'.
+2. Then start the project by using inside the cd ReactApp -> 'npm start'.
 
 We will be good to see the Application running(All the things have been implemented as per the requirement provided).
