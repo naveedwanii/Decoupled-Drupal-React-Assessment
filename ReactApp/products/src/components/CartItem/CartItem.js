@@ -5,9 +5,9 @@ import { AiOutlineDelete } from "react-icons/ai";
 import { IMAGE_URL } from "../../utils/constants";
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
-import "./CartItemsList.scss";
+import "./CartItem.scss";
 
-const CartItemsList = ({ item }) => {
+const CartItem = ({ item }) => {
   const { incrementCart, removeFromCart, itemCount, deleteItem } =
     useContext(CartContext);
   return (
@@ -58,4 +58,4 @@ const CartItemsList = ({ item }) => {
   );
 };
 
-export default CartItemsList;
+export default CartItem;

@@ -4,7 +4,7 @@ import { CartContext } from "../../context/CartContext";
 import "./CartModal.scss";
 import { IoMdClose } from "react-icons/io";
 import { FiShoppingCart } from "react-icons/fi";
-import CartItems from "../CartItems/CartItems";
+import CartItemList from "../CartItemList/CartItemList";
 
 const CartModal = ({ showModal, toggle }) => {
   const { cartItems, getCartTotal } = useContext(CartContext);
@@ -22,7 +22,7 @@ const CartModal = ({ showModal, toggle }) => {
             <IoMdClose onClick={toggle} className="cart__close-button" />
           </div>
 
-          <CartItems />
+          <CartItemList />
 
           {cartItems.length > 0 ? (
             <div className="cart__footer">

@@ -2,10 +2,10 @@ import React from "react";
 
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
-import CartItemsList from "../CartItemsList/CartItemsList";
-import "./CartItems.scss";
+import CartItem from "../CartItem/CartItem.js";
+import "./CartItemList.scss";
 
-const CartItems = () => {
+const CartItemList = () => {
   const { cartItems } = useContext(CartContext);
 
   return (
@@ -23,7 +23,7 @@ const CartItems = () => {
           </thead>
           <tbody>
             {cartItems.map((item) => (
-              <CartItemsList item={item} />
+              <CartItem item={item} />
             ))}
           </tbody>
         </table>
@@ -32,4 +32,4 @@ const CartItems = () => {
   );
 };
 
-export default CartItems;
+export default CartItemList;
