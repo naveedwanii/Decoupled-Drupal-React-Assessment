@@ -20,7 +20,7 @@ const CartPage = ({ showModal, toggle }) => {
     itemCount,
     deleteItem,
   } = useContext(CartContext);
-  console.log(cartItems);
+
   return (
     showModal && (
       <>
